@@ -1,0 +1,22 @@
+# Build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.pdf
+!figs/*.pdf
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+*.bcf
+*.run.xml
+
+# Local cache / temp
+tmp/
+
+# TeX 发行版（TeX Live / MiKTeX）自带的宏包文件，不纳入版本管理
+acmart.cls
+ACM-Reference-Format.bst
